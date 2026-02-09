@@ -1,6 +1,6 @@
 body {
     font-family: 'Georgia', serif;
-    background: #f8f6f3;
+    background: hsl(0, 0%, 0%);
     margin: 0;
     padding: 0;
     display: flex;
@@ -13,11 +13,14 @@ body {
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
+    color: #faf5f3;
 }
 
 h1 {
     font-size: 20px;
     margin-bottom: 15px;
+    color: #79a5de;
+    font-style: italic;
 }
 
 audio {
@@ -50,14 +53,14 @@ audio {
 }
 .dedicatoria {
     font-size: 16px;
-    color: #444;
+    color: #ffffff;
     margin: 20px 0 10px;
     line-height: 1.5;
 }
 
 .fecha {
     font-size: 14px;
-    color: #777;
+    color: #6881db;
     margin-bottom: 20px;
     font-style: italic;
 }
@@ -66,5 +69,5 @@ audio {
     margin-top: 25px;
     font-family: 'Cursive', serif;
     font-size: 18px;
-    color: #b45f8a;
+    color: #76d9ed;
 }
